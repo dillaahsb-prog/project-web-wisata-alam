@@ -1,0 +1,93 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+.kontak-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+.info-kontak, .form-kontak {
+  background-color: white;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  flex: 1 1 350px;
+  max-width: 500px;
+}
+
+.info-kontak h2, .form-kontak h2 {
+  margin-bottom: 15px;
+  color: #dd0000;
+}
+
+.info-kontak p {
+  margin: 10px 0;
+}
+
+.info-kontak a {
+  color: black;
+  text-decoration: none;
+}
+
+.info-kontak a:hover {
+  text-decoration: underline;
+}
+
+/* Formulir */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+input, textarea {
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+button {
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #dd0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #023e8a;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #dd0000;
+  color: white;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
