@@ -1,0 +1,341 @@
+/* ===== Bagian Tempat Penginapan ===== */
+
+main {
+    background-color: beige;
+}
+
+/* Style navbar */
+.navbar {
+    font-family: 'ws-paradose';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8C1007;
+    padding: 10px 20px;
+}
+
+/* Logo dengan subbrand di bawah */
+.navbar .logo {
+    text-align: start;
+}
+
+.navbar .logo a {
+    font-family: 'ws-paradose';
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    /* Mengubah link menjadi block agar bisa dipisah */
+}
+
+.navbar .subbrand {
+    display: block;
+    /* Menjadikan subbrand sebagai block element */
+    color: #f39c12;
+    font-size: 1px;
+    font-style: italic;
+    margin-top: px;
+    /* Memberikan jarak antara logo dan subbrand */
+}
+
+.sub2 {
+    color: white;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+    margin: 10px;
+}
+
+.nav-links a:hover {
+    color: #FFF0C4;
+}
+
+.penginapan {
+    background-color: beige;
+    padding: 50px 20px;
+    text-align: center;
+    font-family: 'ws-paradose', sans-serif;
+}
+
+.penginapan h2 {
+    color: #8C1007;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.penginapan p {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+/* Container untuk penginapan */
+.penginapan-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+/* Kartu penginapan */
+.card {
+    background-color: #fff;
+    border: 2px solid #8C1007;
+    border-radius: 8px;
+    width: 280px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    /* tambahkan ini */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 2px solid #8C1007;
+}
+
+.card h3 {
+    color: #8C1007;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.card p {
+    padding: 10px 15px;
+    color: #444;
+    font-size: 14px;
+    line-height: 1.4;
+    flex-grow: 1;
+    /* biar tinggi teks fleksibel */
+}
+
+.btn {
+    display: inline-block;
+    background-color: #8C1007;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+
+    margin-top: 10px;
+    margin-bottom: 25px;
+    /* jarak bawah */
+    align-self: center;
+    /* tombol tetap di tengah */
+}
+
+.btn:hover {
+    background-color: #bd78b7;
+    color: white;
+}
+
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+    .penginapan-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+/* ===== Bagian Tempat Penginapan ===== */
+
+main {
+    background-color: beige;
+}
+
+/* Style navbar */
+.navbar {
+    font-family: 'ws-paradose';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8C1007;
+    padding: 10px 20px;
+}
+
+/* Logo dengan subbrand di bawah */
+.navbar .logo {
+    text-align: start;
+}
+
+.navbar .logo a {
+    font-family: 'ws-paradose';
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    /* Mengubah link menjadi block agar bisa dipisah */
+}
+
+.navbar .subbrand {
+    display: block;
+    /* Menjadikan subbrand sebagai block element */
+    color: #f39c12;
+    font-size: 1px;
+    font-style: italic;
+    margin-top: px;
+    /* Memberikan jarak antara logo dan subbrand */
+}
+
+.sub2 {
+    color: white;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+    margin: 10px;
+}
+
+.nav-links a:hover {
+    color: #FFF0C4;
+}
+
+.penginapan {
+    background-color: beige;
+    padding: 50px 20px;
+    text-align: center;
+    font-family: 'ws-paradose', sans-serif;
+}
+
+.penginapan h2 {
+    color: #8C1007;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.penginapan p {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+/* Container untuk penginapan */
+.penginapan-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+/* Kartu penginapan */
+.card {
+    background-color: #fff;
+    border: 2px solid #8C1007;
+    border-radius: 8px;
+    width: 280px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    /* tambahkan ini */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 2px solid #8C1007;
+}
+
+.card h3 {
+    color: #8C1007;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.card p {
+    padding: 10px 15px;
+    color: #444;
+    font-size: 14px;
+    line-height: 1.4;
+    flex-grow: 1;
+    /* biar tinggi teks fleksibel */
+}
+
+.btn {
+    display: inline-block;
+    background-color: #8C1007;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+
+    margin-top: 10px;
+    margin-bottom: 25px;
+    /* jarak bawah */
+    align-self: center;
+    /* tombol tetap di tengah */
+}
+
+.btn:hover {
+    background-color: #bd78b7;
+    color: white;
+}
+
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+    .penginapan-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
